@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specific product details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <header>
+        <div class="nav-bar">
+            <div class="upper-nav-bar">
+                <div class="nav-bar-logo"></div>
+                <div class="upper-nav-bar-middle">
+                    <div class="nav-bar-home "><a href = "#" class="menu-hover"> Home</a></div>
+                    <div class="nav-bar-products "><a href = "#" class="menu-hover">Products</a></div>
+                    <div class="nav-bar-customer-support "><a href = "#" class="menu-hover">Customer Support</a></div>
+                    <div class="nav-bar-languague ">
+                        <select id="language">
+                            <option >Language</option>
+                            <option>English</option>
+                            <option>हिन्दी</option>
+                            <option>বাংলা</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="upper-nav-bar-right">
+                    <div class="nav-bar-cart-icon menu-hover">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="nav-bar-account ">
+                        <button id="sign-in-button">Sign in</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lower-nav-bar">
+                <div class=" lower-nav-all-category">
+                    <select id="all-category">
+                        <Option value="All Category">  All Category</Option>
+                        <option>Vegetables</option>
+                        <option>Fruits</option>
+                        <option>Crops</option>
+                        <option>Spices</option>
+                        <option>Plants</option>
+                    </select>
+                </div>
+                 
+                <div class="lower-nav-bar-searchbar">
+                    <input id ="searchbar" placeholder="   Search for vegetables, fruits & more...">
+                    <button id="search-button"><i class="fa-solid fa-magnifying-glass" id="nav-search-icon"></i></button>
+                </div>
+
+                <div class="lower-nav-bar-sell-button">
+                    <button id="seller-button">Seller</button>
+                    <i class="fa-regular fa-comment nav-bar-icon"></i>
+                    <i class="fa-regular fa-bell nav-bar-icon"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="nav-bar-panel"></div>
+    </header>
+
+    <main>
+
+        <div class="specific-product-details-hero-section">
+            <div class="all-product-details">
+                <div class="all-product-details-image-section">
+                    <div class="image-section-big-image"></div>
+                    <div class="image-section-small-images">
+                        <div class="product-small-image-first product-small-image"></div>
+                        <div class="product-small-image-second product-small-image"></div>
+                        <div class="product-small-image-third product-small-image"></div>
+                    </div>
+
+                </div>
+
+                <div class="all-product-details-description-section">
+                    <h1 id="product-name">Fresh Green Peas</h1>
+                    <h2 id="product-description">Description</h2>
+                    <p id="product-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, dolor enim eaque illo veritatis ea nostrum nihil reiciendis? Voluptatum laudantium, odio ipsum culpa voluptates ea sunt ducimus ratione vitae commodi!</p>
+                    <h1 id="product-price">₹ 120/kg</h1>
+                    <select id="product-quantity">
+                        <option>Order Quantity</option>
+                        <option>10 kg</option>
+                        <option>15 kg</option>
+                        <option>20 kg</option>
+                        <option>25 kg</option>
+                        <option>30 kg</option>
+                        <option>35 kg</option>
+                        <option>40 kg</option>
+                        <option>45 kg</option>
+                        <option>50 kg</option>
+                    </select>
+                    <p id="product-minimum-order-quantity">Minimum Order Quantity : 10 kg</p>
+                    <p id="product-price-calculation-text">For 0 kg, the price will be : </p>
+                    <h1 id="product-price-calculation-amount">₹ 0000</h1>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="all-farmer-details">
+                <div class="all-farmer-details-description-section">
+                    <div class="farmers-details">
+                        <i class="fa-solid fa-user" style="padding-left:25px;"></i>
+                         <p id="farmers-details-text">Farmer's Details</p>
+                    </div>
+
+                    <div class="farmer-details-details">
+                        <p><b>Name : </b>Farmer's Name</p>
+                        <p><b>Location : </b>Farmer's Location</p>
+                        <p><b>Gender : </b>Farmer's Gender</p>
+                    </div>
+
+                    <a href="chat-with-farmer-page.html">
+                        <center>
+                        <button id="chat-with-farmer-button">Chat With Farmer </button>
+                        </center>
+                    </div>
+
+                    </a>
+
+                <div class="all-farmer-details-other-details">
+                    <h1 style="color: #114232; padding: 10px 0 0 20px;">Other Details</h1>
+                    <p style="padding: 10px 0 0 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, doloremque repellat reprehenderit similique nobis non consequatur dolores! Eos, excepturi esse. Alias id nisi hic fugit quo unde, animi labore tenetur.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="upper-footer">
+            <center>
+                <p style="color: white; font-size: 1.4rem; padding-top: 7px;">Back to top</p>
+            </center>
+        </div>
+        <div class="middle-footer">
+
+            <div class="middle-footer-section-one">
+                <ul>
+                    <h3>POPULAR LOCATIONS</h3>
+                    <li>Kolkata</li>
+                    <li>Mumbai</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+
+            <div class="middle-footer-section-two">
+                <ul>
+                    <h3>TRENDING LOCATIONS</h3>
+                    <li>Kolkata</li>
+                    <li>Mumbai</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+
+            <div class="middle-footer-section-three">
+                <ul>
+                    <h3>FarmMitra</h3>
+                    <li>Blog</li>
+                    <li>Help</li>
+                    <li>Sitemap</li>
+                    <li>Legal & Privacy information</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <center>
+                <p style="color: white; font-size: 1.1rem; padding-top: 10px;">Made with  &#9829; by FarmMitra Team</p>
+            </center>
+        </div>
+    </footer>
+
+</body>
+</html>

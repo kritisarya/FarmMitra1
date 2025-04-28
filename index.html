@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="upper-nav-bar">
+                <div class="nav-bar-logo"></div>
+                <div class="upper-nav-bar-middle">
+                    <div class="nav-bar-home "><a href = "#" class="menu-hover"> Home</a></div>
+                    <div class="nav-bar-products "><a href = "#" class="menu-hover">Products</a></div>
+                    <div class="nav-bar-customer-support "><a href = "#" class="menu-hover">Customer Support</a></div>
+                    <div class="nav-bar-languague ">
+                        <select id="language">
+                            <option >Language</option>
+                            <option>English</option>
+                            <option>हिन्दी</option>
+                            <option>বাংলা</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="upper-nav-bar-right">
+                    <div class="nav-bar-cart-icon menu-hover">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="nav-bar-account ">
+                        <button id="sign-in-button">Sign in</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lower-nav-bar">
+                <div class=" lower-nav-all-category">
+                    <select id="all-category">
+                        <Option value="All Category">  All Category</Option>
+                        <option>Vegetables</option>
+                        <option>Fruits</option>
+                        <option>Crops</option>
+                        <option>Spices</option>
+                        <option>Plants</option>
+                    </select>
+                </div>
+                 
+                <div class="lower-nav-bar-searchbar">
+                    <input id ="searchbar" placeholder="   Search for vegetables, fruits & more...">
+                    <button id="search-button"><i class="fa-solid fa-magnifying-glass" id="nav-search-icon"></i></button>
+                </div>
+
+                <div class="lower-nav-bar-sell-button">
+                    <button id="seller-button">Seller</button>
+                    <i class="fa-regular fa-comment nav-bar-icon"></i>
+                    <i class="fa-regular fa-bell nav-bar-icon"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="nav-bar-panel"></div>
+    </header>
+
+    <main>
+
+        <div class="hero-section">
+            <button id="button-get-started">Get Started</button>
+            <button id="button-learn-more">Learn More</button>
+        </div>
+
+        <div class="hero-section-panel">
+            <div class="panel-features">
+                <i class="fa-solid fa-lock"></i>
+                <p>Secure Contracts</p>
+            </div>
+
+            <div class="panel-features">
+                <i class="fa-solid fa-handshake"></i>
+                <p>Guaranteed Buyers</p>
+            </div>
+
+            <div class="panel-features">
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+                <p>Transparent Payments</p>
+            </div>
+
+            <div class="panel-features">
+                <i class="fa-solid fa-map"></i>
+                <p>Real-Time Tracking</p>
+            </div>
+
+            <div class="panel-features">
+                <i class="fa-solid fa-phone"></i>
+                <p>Open Communication</p>
+            </div>
+            
+        </div>
+        
+
+        
+        <div class="second-panel-icon-options">
+           
+        <a href="vegetables-products.html">
+            <div class="vegetables-icon-text">
+                <div class="vegetable-icon"></div>
+                <p>Vegetables</p>
+            </div> 
+        </a>
+  
+        <a href="fruits-products.html">
+            <div class="fruits-icon-text">
+                <div class="fruits-icon"></div>
+                <p>Fruits</p>
+            </div> 
+        </a>
+
+
+        <a href="plants-products.html">
+            <div class="plants-icon-text">
+                <div class="plants-icon"></div>
+                <p>Plants</p>
+            </div> 
+        </a>
+
+
+        <a href="crops-products.html">
+            <div class="crops-icon-text">
+                <div class="crops-icon"></div>
+                <p>Crops</p>
+            </div> 
+         </a>
+
+
+         <a href="spices-products.html">
+            <div class="spices-icon-text">
+                <div class="spices-icon"></div>
+                <p>Spices</p>
+            </div> 
+        </a>
+        </div>
+
+        <div class="home-page-all-product-section">
+            <div class="home-page-all-product-left-section">
+                <div class="home-page-filter-section">
+                    <i class="fa-solid fa-filter"></i>
+                    <h3>Filter</h3>
+                </div>
+
+                <div class="filter-avaliable-already-harvested">
+                    <input type="checkbox" > Already Harvested
+                
+                </div>
+                <hr>
+
+                <div class="filter-production-month">
+                    <h3 style="padding: 10px 0 10px 0;">Production Month</h3>
+                    <input type="checkbox"> January<br>
+                    <input type="checkbox"> February<br>
+                    <input type="checkbox"> March<br>
+                    <input type="checkbox"> April<br>
+                    <input type="checkbox"> May<br>
+                    <input type="checkbox"> June<br>
+                    <input type="checkbox"> July<br>
+                    <input type="checkbox"> August<br>
+                    <input type="checkbox"> September<br>
+                    <input type="checkbox"> October<br>
+                    <input type="checkbox"> November<br>
+                    <input type="checkbox"> December<br>
+
+                </div>
+                <hr>
+
+                <div class="filter-distance">
+                    <select id="filter-distance">
+                        <option> Distance </option>
+                        <option> Below 5 km </option>
+                        <option> 5 km - 10 km</option>
+                        <option> 10 km - 20 km</option>
+                        <option> 20 km - 30 km</option>
+                        <option> 30 km - 40 km</option>
+                        <option> 40 km - 50 km</option>
+                        <option> Above 50 km</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="home-page-all-product-right-section">
+                <div class="home-page-all-product-section-first-row">
+                        <div class="all-product-section-first-row-box-one product-container">
+
+                        <a href="specific-product-details.html">
+                            <div class="product-container-image box1"></div>
+                            <div class="product-container-details">
+                                <h2>Fresh Green Peas</h2>
+                                <h2>₹ 120/kg</h2>
+                                <p class="minimum-order-quantity-text">Minimum Order Quantity : 10kg</p>
+                            </div>
+                        </a>
+
+                        </div>
+
+                    <div class="all-product-section-first-row-box-two product-container">
+                        <div class="product-container-image box2"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh red tomato</h2>
+                            <h2>₹ 70/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 15kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-first-row-box-three product-container">
+                        <div class="product-container-image box3"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh Litchi</h2>
+                            <h2>₹ 80/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 20kg</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="home-page-all-product-section-second-row">
+
+                    <div class="all-product-section-second-row-box-one product-container">
+                        <div class="product-container-image box4"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh red Apples</h2>
+                            <h2>₹ 50/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 15kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-second-row-box-two product-container">
+                        <div class="product-container-image box5"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh Green Chilli</h2>
+                            <h2>₹ 80/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 20kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-second-row-box-three product-container">
+                        <div class="product-container-image box6"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh Banana</h2>
+                            <h2>₹ 65/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 18kg</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="home-page-all-product-section-third-row">
+
+                    <div class="all-product-section-third-row-box-one product-container">
+                        <div class="product-container-image box7"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh Spinach</h2>
+                            <h2>₹ 80/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 20kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-third-row-box-two product-container">
+                        <div class="product-container-image box8"></div>
+                        <div class="product-container-details">
+                            <h2>Fresh coriander leaves</h2>
+                            <h2>₹ 40/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 18kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-third-row-box-three product-container">
+                        <div class="product-container-image box9"></div>
+                        <div class="product-container-details">
+                            <h2>Coriander seeds</h2>
+                            <h2>₹ 60/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 20kg</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="home-page-all-product-section-forth-row">
+
+                    <div class="all-product-section-forth-row-box-one product-container">
+                        <div class="product-container-image box10"></div>
+                        <div class="product-container-details">
+                            <h2>Dried cinnamon</h2>
+                            <h2>₹ 60/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 30kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-forth-row-box-two product-container">
+                        <div class="product-container-image box11"></div>
+                        <div class="product-container-details">
+                            <h2>Paddy Seeds</h2>
+                            <h2>₹ 90/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 40kg</p>
+                        </div>
+                    </div>
+
+                    <div class="all-product-section-forth-row-box-three product-container">
+                        <div class="product-container-image box12"></div>
+                        <div class="product-container-details">
+                            <h2>Rice</h2>
+                            <h2>₹ 80/kg</h2>
+                            <p class="minimum-order-quantity-text">Minimum Order Quantity : 20kg</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="upper-footer">
+            <center>
+                <p style="color: white; font-size: 1.4rem; padding-top: 7px;">Back to top</p>
+            </center>
+        </div>
+        <div class="middle-footer">
+
+            <div class="middle-footer-section-one">
+                <ul>
+                    <h3>POPULAR LOCATIONS</h3>
+                    <li>Kolkata</li>
+                    <li>Mumbai</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+
+            <div class="middle-footer-section-two">
+                <ul>
+                    <h3>TRENDING LOCATIONS</h3>
+                    <li>Kolkata</li>
+                    <li>Mumbai</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+
+            <div class="middle-footer-section-three">
+                <ul>
+                    <h3>FarmMitra</h3>
+                    <li>Blog</li>
+                    <li>Help</li>
+                    <li>Sitemap</li>
+                    <li>Legal & Privacy information</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <center>
+                <p style="color: white; font-size: 1.1rem; padding-top: 10px;">Made with  &#9829; by FarmMitra Team</p>
+            </center>
+        </div>
+    </footer>
+
+</body>
+</html>

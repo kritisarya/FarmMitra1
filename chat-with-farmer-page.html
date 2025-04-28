@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Farmer Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="upper-nav-bar">
+                <div class="nav-bar-logo"></div>
+                <div class="upper-nav-bar-middle">
+                    <div class="nav-bar-home "><a href = "#" class="menu-hover"> Home</a></div>
+                    <div class="nav-bar-products "><a href = "#" class="menu-hover">Products</a></div>
+                    <div class="nav-bar-customer-support "><a href = "#" class="menu-hover">Customer Support</a></div>
+                    <div class="nav-bar-languague ">
+                        <select id="language">
+                            <option >Language</option>
+                            <option>English</option>
+                            <option>हिन्दी</option>
+                            <option>বাংলা</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="upper-nav-bar-right">
+                    <div class="nav-bar-cart-icon menu-hover">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="nav-bar-account ">
+                        <button id="sign-in-button">Sign in</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lower-nav-bar">
+                <div class=" lower-nav-all-category">
+                    <select id="all-category">
+                        <Option value="All Category">  All Category</Option>
+                        <option>Vegetables</option>
+                        <option>Fruits</option>
+                        <option>Crops</option>
+                        <option>Spices</option>
+                        <option>Plants</option>
+                    </select>
+                </div>
+                 
+                <div class="lower-nav-bar-searchbar">
+                    <input id ="searchbar" placeholder="   Search for vegetables, fruits & more...">
+                    <button id="search-button"><i class="fa-solid fa-magnifying-glass" id="nav-search-icon"></i></button>
+                </div>
+
+                <div class="lower-nav-bar-sell-button">
+                    <button id="seller-button">Seller</button>
+                    <i class="fa-regular fa-comment nav-bar-icon"></i>
+                    <i class="fa-regular fa-bell nav-bar-icon"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="nav-bar-panel"></div>
+    </header>
+    
+    <main>
+
+        <div class="chat-with-farmer-div-section">
+            <div class="chat-with-farmer-div-left-section">
+                <div class="left-section-div1">
+                    <p >Farmer's Name</p>
+                    <div class="blank-div"></div>
+                    <div class="left-section-icons">
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    
+                    
+    
+
+                </div>
+                
+
+                <div class="left-section-div2">
+                    <p> ₹ 0000</p>
+
+                </div>
+                <div class="left-section-div3">
+                    <p>Chat Section</p>
+                </div>
+                <div class="left-section-div4">
+                    <input placeholder="Write a message..." id="message-id">
+                    <i class="fa-solid fa-paper-plane" style="font-size: 1.3rem; padding-left: 15px; padding-right: 15px"></i>
+                    <button id="make-offer-div"><a href="chat-with-farmer-make-offer-page.html" style="color: white;">Make Offer</a></button>
+                    
+                    
+                </div>
+            </div>
+
+            <div class="chat-with-farmer-div-right-section" style="padding: 20px;">
+                <h1>Product Description</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, ad. Error saepe ratione sint maiores, voluptatibus facilis voluptatum distinctio cumque hic eligendi vitae molestiae blanditiis sunt eveniet recusandae laudantium omnis.
+                Perferendis minus mollitia dolor consequuntur dolorem doloribus labore nulla amet nesciunt ratione aperiam dolores corrupti sunt aut eveniet quo saepe, molestiae, earum odio quaerat deleniti, facilis maiores vitae! In, quo?
+                Cumque repellendus sapiente quo corrupti, assumenda culpa ratione vel est doloribus numquam quos eveniet nulla porro ipsam nisi accusantium sequi esse eum explicabo. Nulla, repudiandae suscipit. Ducimus non quis veniam!</p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+    
+        <div class="middle-footer">
+
+            <div class="middle-footer-section-one">
+                <ul>
+                    <h3>POPULAR LOCATIONS</h3>
+                    <li>Kolkata</li>
+                    <li>Mumbai</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+
+            <div class="middle-footer-section-two">
+                <ul>
+                    <h3>TRENDING LOCATIONS</h3>
+                    <li>Kolkata</li>
+                    <li>Mumbai</li>
+                    <li>Chennai</li>
+                    <li>Pune</li>
+                </ul>
+            </div>
+
+            <div class="middle-footer-section-three">
+                <ul>
+                    <h3>FarmMitra</h3>
+                    <li>Blog</li>
+                    <li>Help</li>
+                    <li>Sitemap</li>
+                    <li>Legal & Privacy information</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <center>
+                <p style="color: white; font-size: 1.1rem; padding-top: 10px;">Made with  &#9829; by FarmMitra Team</p>
+            </center>
+        </div>
+    </footer>
+    
+</body>
+</html>
